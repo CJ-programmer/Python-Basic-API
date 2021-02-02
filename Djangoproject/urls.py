@@ -20,4 +20,5 @@ from Pythonproject import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.function),
+    path('page2',views.page2),
 ]
