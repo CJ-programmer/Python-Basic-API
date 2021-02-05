@@ -5,6 +5,10 @@
   <link rel ='stylesheet' type = 'text/css' href = '{% static 'my.css' %}'>
   </head>
   <body>
-    <h1> Its My First Web Page Using HTML </h1>
+    <h1> User Informations </h1>
+    {%for i in value%}
+    {{i.Name}}<br>
+    {{i.Email}}<br>
+    {%endfor%}
     </body>
     </html>
